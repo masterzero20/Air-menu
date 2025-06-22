@@ -74,29 +74,36 @@
 
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="..//vender/bootstrap/css/bootstrap.min.css">
-    <!-- Vendor CSS -->
+    <!-- Remix Icon -->
     <link rel="stylesheet" href="..//vender/remixicon/remixicon.css">
+    <!-- Remix Icon -->
     <link rel="stylesheet" href="..//vender/icofont/icofont.min.css">
+    <!-- AOS Css -->
     <link rel="stylesheet" href="..//vender/aos/dist/aos.css">
-    <link rel="stylesheet" href="..//css/swiper/swiper-bundle.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/new-style.css">
 
-    <!-- Icons -->
+    <!-- Common Css -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link href="..//css/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="..//css/style.css">
-    <link rel="stylesheet" href="..//css/new-style.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/preloader.css">
-    <link rel="stylesheet" href="./css/color-theme.css">
-
-    <!-- SweetAlert2 -->
-    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+<style>
+body.white-bg .app-nav .navbar-nav > li > .nav-link {
+    color:  black;
+}
 
+body.white-bg .app-nav .navbar-nav > li.active > .nav-link {
+    color: blue!important;
+}
+</style>
 
 
 </head>
@@ -113,26 +120,24 @@
         <div class="preloader-circle"></div>
         <div class="preloader-img pere-text">
           <img
-          src="..//img/pre.png"
+          src="..//img/logo.png"
             alt="آير مينيو للحلول البرمجية logo"
-            style=" "
-            
           />
         </div>
       </div>
     </div>
   </div>
 
-      <!-- hero-header -->
-      <div class="hero-background">
+    <!-- hero-header -->
+    <div class="hero-background">
         <!-- Navbar -->
         <nav class="navbar osahan-main-nav navbar-expand-lg app-nav py-3 py-lg-0 " style="color: black;">
             <div class="container">
                 <div class="position-relative d-flex align-items-center gap-2 site-brand">
 
-                    <div  class="lh-1" style="transform: translateY(35px)!important">
+                    <div class="lh-1">
 								<img src="..//img/logo.png" style=" border-radius: 50% ; transform: translatey(-15px); "
-									class="img-fluid content-block-image osahan-dropdown-box-logo" alt="آير مينيو للحلول البرمجية" width="110" ;">
+									class="img-fluid content-block-image osahan-dropdown-box-logo" alt="آير مينيو للحلول البرمجية" width="110">
 						</div>
                     <a class="stretched-link" href="index.html"></a>
                 </div>
@@ -227,7 +232,7 @@
                     </div>
                     
             </div>
-       </div>
+        </nav>
 
         <section class="header-curosal hero-section " id="home">
             <div id="ahmed" class="carousel slide slides-1 swiper" data-ride="carousel">
@@ -309,10 +314,6 @@
             </div>
         </section>
     </div>
-        </nav>
-
-       
-    
 
 
 <!-- About -->
@@ -325,7 +326,7 @@
                             <span class="gradient-text">من نحن</span>
                         </h1>
                         <p class="text-secondary-emphasis " style="font-size: 18px;">
-                            <b></b> <br/>نحن شريكك الاستراتيجي في التحول الرقمي<br/>
+                            نحن شريكك الاستراتيجي في التحول الرقمي
 آير مينيو للحلول البرمجية تتميز في تقديم الحلول الرقمية المتكاملة للشركات والمؤسسات على مستوى المنطقة. نحن نؤمن بأن النجاح في العصر الرقمي يبدأ بوجود حضور إلكتروني قوي وفعّال.نحن نصمم لك تجربة رقمية فريدة تجذب العملاء وتحولهم إلى شركاء أوفياء.  لهذا السبب، نركز جهودنا على تقديم خدمات تصميم مواقع تعريفية للشركات، وتفعيل وإنشاء الإيميلات الرسمية، وتصميم الهوية البصرية المتكاملة. نسعى دائمًا إلى الابتكار والتفرد في تصميماتنا، مما يضمن لعملائنا تجربة رقمية متميزة.
 
                         </p>
@@ -333,7 +334,7 @@
                     
                     <div class="mb-5 block">
                         <h4 class="fw-bold pb-2 d-flex  align-items-center">
-                            <div class="icon"><i class="fas fa-lightbulb "style="color: var(--second-color);"></i></div>
+                            <div class="icon"><i class="fas fa-lightbulb "></i></div>
 
                             <span class="gradient-text">رؤيتنا</span>
                         </h4>
@@ -354,9 +355,69 @@
 احتياجات العملاء وتساهم في تعزيز تواجدهم الرقمي وزيادة فعالية تواصلهم مع عملائهم.
 
                         </p>
+                    </div>                    
+                    <div class="mb-5 block">
+                        <h4 class="fw-bold pb-2 d-flex  align-items-center">
+
+                            <div class="icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <span class="gradient-text">تاريخنا</span>
+                        </h4>
+                        <p class="text-secondary-emphasis">
+                            بفضل تاريخ غني بالإنجازات وفريق عمل محترف ذو خبرة واسعة، نمكّن عملاءنا من خلال تقديم خدمات
+                            ومنتجات استثنائية تضيف قيمة حقيقية لمشاريعهم.
+                        </p>
                     </div>
-                 </div>
-                 <div class="col-lg-6 col-12">
+                    <div class="mb-5 block">
+                        <h4 class="fw-bold pb-2 d-flex  align-items-center">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <span class="gradient-text">رسالتنا</span>
+                        </h4>
+                        <p class="text-secondary-emphasis">
+                            تقديم منتجات وخدمات مبتكرة وموثوقة تلبي أعلى معايير الجودة العالمية، مع السعي المستمر لتحقيق
+                            رضا
+                            العملاء ودعم رؤية السعودية 2030 من خلال الابتكار والاستدامة.
+                        </p>
+                    </div>
+                    <div class=" block">
+                        <h4 class="fw-bold pb-2 d-flex  align-items-center">
+                            <div class="icon"><i class="fas fa-leaf"></i></div>
+                            <span class="gradient-text">قيمنا</span>
+                        </h4>
+                        <ul class="text-secondary-emphasis">
+                            <li>
+                                <strong class="Our_values">
+                                    <i class="fas fa-check-circle"></i> التميز:
+                                  </strong> <br> نقدم عملاً متميزًا مع الانتباه لأدق التفاصيل، حيث إن التميز هو
+                                ما
+                                يصنع الفرق.
+                            </li>
+                            <li>
+                                <strong class="Our_values">
+                                    <i class="fas fa-paint-brush"></i> الإبداع:
+                                  </strong>
+                                  <br> نعيد تعريف التحديات ونقدم حلولاً مبتكرة تفتح آفاقًا جديدة
+                                للمستقبل.
+                            </li>
+                            <li>
+                                <strong class="Our_values">
+                                    <i class="fas fa-handshake"></i> الشراكة:
+                                  </strong>
+                                  <br> نؤمن بأن النجاح الحقيقي يبنى معًا من خلال علاقات تقوم على
+                                الثقة
+                                والتعاون.
+                            </li>
+                            <li >
+                                <strong class="Our_values">
+                                    <i class="fas fa-shield-alt" style="color: blue;"></i> المسؤولية:
+                                  </strong>
+                                  <br > نضع الاستدامة في صميم عملنا لضمان تأثير إيجابي دائم.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
                     <div class="row g-5">
                         <div class="col-6">
                             <img src="..//img/team/member-1.webp" alt="team-member-1" class="img-fluid mb-4 rounded-5"
@@ -379,6 +440,7 @@
 
     <!--احصائيات النجاح-->
     <div class="py-5 pyy-5 ">
+
         <div class="container" >
             <div class="row "   >
                 <div class="col-12"    >
@@ -454,7 +516,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 
         <!-- الخدمات-->
         <div class="py-5">
@@ -463,88 +525,81 @@
                   <div class="col-12">
                       <div class="text-center">
                           <h1 class="gradient-text" data-aos="fade-up" data-aos-duration="1500">خدماتنا</h1>
+                          
+
                       </div> 
                   </div>
               </div>
               <div class="py-5">
                   <div class="container py-5" >
+                   
                                <div class="row g-4 g-md-5 " data-aos="fade-left" data-aos-duration="1500">
                           <div class="col-lg-6 col-12"  >
-                              <div class="gap-3 rounded-5 p-5 border gapp-3 non ">
-                                  <div class="flip-card">
-                                      <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                              <div class="icon">
-                                                  <i class="ri-global-line ri-3x text-primary"></i>                         
-                                              </div>
-                                              <h4>تصميم المواقع التعريفية</h4>
-                                          </div>
-                                          <div class="flip-card-back d-flex justify-content-center flex-column">
-                                              <p>نقدم خدمات تصميم مواقع تعريفية تعكس هوية ونشاط شركتك بشكل احترافي وجذاب. نعتمد على أحدث التقنيات والتصميمات المبتكرة لضمان موقع إلكتروني يبرز بين المنافسين ويحقق أهدافك التجارية.</p>
-                                              <a href="#contact" class="custom-button mt-3">تواصل الان</a>
-                                          </div>
-                                      </div>
+                              <div class="gap-3 rounded-5 p-5 border gapp-3 ">
+                                  <i class="ri-pages-line ri-3x ri-ser "></i>
+                                  <div class="pt-3">
+                                      <h4 class=""data-aos="fade-right" data-aos-duration="500" >تصميم المواقع التعريفية (الهوية الرقمية)</h4>
+                                      <p class=" text-secondary-emphasis"data-aos="fade-right" data-aos-duration="500"  > نقدم خدمات تصميم مواقع تعريفية تعكس هوية ونشاط شركتك بشكل احترافي وجذاب. نعتمد على أحدث التقنيات والتصميمات المبتكرة لضمان موقع إلكتروني يبرز بين المنافسين ويحقق أهدافك التجارية.   </p>
+                                     
                                   </div>
-                              </div>
+                                  <div class="d-flex align-items-center gap-3 con-ser con-ser1" data-aos="fade-left" data-aos-duration="1500">
+                                      
+                                        
+                                      <a href="#contact" class=" custom-button swiper-no-swiping btn-ser btn-ser1  " style="transform: translateY(20px);">تواصل الان</a>
+                                    </div>
+                                  </div>
                           </div>
                           <div class="col-lg-6 col-12">
-                              <div class="gap-3 rounded-5 p-5 border non">
-                                  <div class="flip-card">
-                                      <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                              <div class="icon">
-                                                  <i class="ri-brush-line ri-3x text-primary"></i>
-                                              </div>
-                                              <h4>تصميم العلامة التجارية</h4>
-                                          </div>
-                                          <div class="flip-card-back d-flex justify-content-center flex-column">
-                                              <p>نصمم لك هوية بصرية متكاملة مصممة خصيصًا لتعكس قيم علامتك التجارية وتستهدف جمهورك باحترافية. تغطي خدماتنا جميع جوانب هويتك البصرية، من الشعار إلى المواد التسويقية، لضمان تجربة مميزة لعملائك.</p>
-                                              <a href="#contact" class="custom-button mt-3">تواصل الان</a>
-                                          </div>
-                                      </div>
+                              <div class="gap-3 rounded-5 p-5 border">
+                                  <i class="ri-trademark-line ri-3x ri-ser"></i>
+                                  <div class="pt-3">
+                                      <h4 class=" "data-aos="fade-right" data-aos-duration="500"  >
+                                          تصميم العلامة التجارية (الهوية البصرية)
+                                          </h4>
+                                      <p class="text-secondary-emphasis"data-aos="fade-right" data-aos-duration="500" >  نصمم لك هوية بصرية متكاملة مصممة خصيصًا لتعكس قيم علامتك التجارية وتستهدف جمهورك باحترافية. تغطي خدماتنا جميع جوانب هويتك البصرية، من الشعار إلى المواد التسويقية، لضمان تجربة مميزة لعملائك.      </p>
+                                     
                                   </div>
-                              </div>
+                                  <div class="d-flex align-items-center gap-3 con-ser" data-aos="fade-left" data-aos-duration="1500">
+                                    <a href="#contact" class=" custom-button swiper-no-swiping btn-ser  ">تواصل الان</a>
+
+                                    </div>
+                                  </div>
                           </div>
                           <div class="col-lg-6 col-12">
-                              <div class="gap-3 rounded-5 p-5 border non">
-                                  <div class="flip-card">
-                                      <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                              <div class="icon">
-                                                  <i class="ri-mail-line ri-3x text-primary"></i>
-                                              </div>
-                                              <h4>البريد الإلكتروني الرسمي</h4>
-                                          </div>
-                                          <div class="flip-card-back d-flex justify-content-center flex-column">
-                                              <p>نساعدك في تفعيل وإنشاء الإيميلات الرسمية لشركتك بطرق آمنة وموثوقة، مما يعزز من كفاءة التواصل المهني ويبني ثقة العملاء والشركاء.</p>
-                                              <a href="#contact" class="custom-button mt-3">تواصل الان</a>
-                                          </div>
-                                      </div>
+                              <div class="gap-3 rounded-5 p-5 border">
+                                  <i class="ri-pages-fill ri-3x ri-ser"></i>
+                                  <div class="pt-3">
+                                      <h4 class=""data-aos="fade-right" data-aos-duration="500" > خدمة البريد الإلكتروني الرسمي  </h4>
+                                      <p class="text-secondary-emphasis"data-aos="fade-right" data-aos-duration="500" > نساعدك في تفعيل وإنشاء الإيميلات الرسمية لشركتك بطرق آمنة وموثوقة، مما يعزز من كفاءة التواصل المهني ويبني ثقة العملاء والشركاء.
+
+                                      </p>
+                                     
                                   </div>
-                              </div>
+                                  <div class="d-flex align-items-center gap-3 con-ser" data-aos="fade-left" data-aos-duration="1500">
+                                    <a href="#contact" class=" custom-button swiper-no-swiping btn-ser  ">تواصل الان</a>
+   
+                                    </div>
+                                  </div>
                           </div>
+                       
                           <div class="col-lg-6 col-12">
-                              <div class="gap-3 rounded-5 p-5 border non">
-                                  <div class="flip-card">
-                                      <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                              <div class="icon">
-                                                  <i class="ri-smartphone-line ri-3x text-primary"></i>
-                                              </div>
-                                              <h4>تطبيقات الجوال</h4>
-                                          </div>
-                                          <div class="flip-card-back d-flex justify-content-center flex-column">
-                                              <p>نقوم بتطوير تطبيقات جوال تلبي احتياجات شركتك وتحقق أهدافك الرقمية، فنحن نحول أفكارك إلى واقع رقمي ملموس من خلال تطبيقات جوال مبتكرة.</p>
-                                              <a href="#contact" class="custom-button mt-3">تواصل الان</a>
-                                              
-                                          </div>
-                                      </div>
+                              <div class="gap-3 rounded-5 p-5 border">
+                                  <i class="ri-smartphone-fill ri-3x ri-ser"></i>
+
+                                  <div class="pt-3">
+                                      <h4 class=""data-aos="fade-right" data-aos-duration="500"  > تصميم وبرمجة تطبيقات الجوال </h4>
+                                      <p class="text-secondary-emphasis">نقوم بتطوير تطبيقات جوال تلبي احتياجات شركتك وتحقق أهدافك الرقمية، فنحن نحول أفكارك إلى واقع رقمي ملموس من خلال تطبيقات جوال مبتكرة.</p>
+                                     
                                   </div>
-                              </div>
+                                  <div class="d-flex align-items-center gap-3 con-ser" data-aos="fade-left" data-aos-duration="1500">
+                                    <a href="#contact" class=" custom-button swiper-no-swiping btn-ser  ">تواصل الان</a>
+
+                                    </div>
+                                  </div>
                           </div>
-                  </div>
-              </div>
-          </div>
+
+                        
+                          </div>
                       </div>
                   </div>
               </div>
@@ -569,10 +624,10 @@
                     <div class="row row-cols-3 g-5">
                         
    
-                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-3">
                             <div class="text-center">
                                 <h5 class="fw-normal py-2">
-                                    <i class="ri-share-fill ri-2x text-primary"></i>
+                                    <i class="ri-pages-line ri-2x text-primary"></i>
                                     <br>إدارة المحتوى والسوشيال ميديا
                                 </h5>
                                 <p class="text-muted">
@@ -583,10 +638,10 @@
                             </div>
                         </div>  
  
-                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-3">
                             <div class="text-center">
                                 <h5 class="fw-normal py-2">
-                                    <i class="ri-search-eye-line ri-2x text-primary"></i>
+                                    <i class="ri-pages-line ri-2x text-primary"></i>
                           
                                     <br>
                                     تحليل بيانات المواقع، تحسين محركات البحث (SEO).                               </h5>
@@ -595,10 +650,10 @@
                                       </p>
                             </div>
                         </div>                                          
-                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-3">
                             <div class="text-center">
                                 <h5 class="fw-normal py-2">
-                                    <i class="ri-global-fill ri-2x text-primary"></i>
+                                    <i class="ri-profile-line ri-2x text-primary"></i>
                                     <br>حجز اسم الموقع النطاق  (سواء سعودي أو دولي)
                                 </h5>
                                 <p class="text-muted" style="padding-left: 30px; padding-right: 30px;">
@@ -608,7 +663,7 @@
                             </div>
                         </div>
                         
-                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col-12 col-md-3">
                             <div class="text-center">
                                 <h5 class="fw-normal py-2">
                                     <i class="ri-quill-pen-line ri-2x text-primary"></i>   
@@ -630,6 +685,11 @@
     </div>
         
     <!--  منتاجاتنا الرقمية -->
+    
+
+
+
+
     <div class="py-5">
         <div class="container py-5">
             <div class="row mb-5">
@@ -654,9 +714,8 @@
                             <div class="col-xl-6 col-lg-6 col-12 ">
                                 <div class="px-4 py-5  ">
                                     <div class="text-white mb-4 " data-aos="fade-right" data-aos-duration="600">
-                                        <h4 class="h4-card">ادارة المنيو الرقمي</h4>
-                                        <p class="text-secondary-emphasis"> 
-                                            نقدم لكم نظام إدارة المنيو الرقمي المتطور الذي يتناسب مع احتياجاتكم، ويوفر لكم
+                                        <h4 class="text-black">ادارة المنيو الرقمي</h4>
+                                        <p class="text-secondary-emphasis"> نقدم لكم نظام إدارة المنيو الرقمي المتطور الذي يتناسب مع احتياجاتكم، ويوفر لكم
                                              التحكم الكامل في عناصر المنيو. يمكنكم إضافة أو حذف الأصناف، تغيير الأسعار، وتحديث الصور بسهولة. سيتم عرض التغييرات على الفور برابط المنيو، وذلك من خلال تصميم احترافي يعكس هويتكم.</p>
                                     </div>
                                     
@@ -683,7 +742,7 @@
                        <div class="col-xl-6 col-lg-6 col-12 ">
                            <div class="px-4 py-5  ">
                                <div class="text-white mb-4 " data-aos="fade-right" data-aos-duration="600">
-                                   <h4 class="h4-card">البطاقة الرقمية</h4>
+                                   <h4 class="text-black">البطاقة الرقمية</h4>
                                    <p class="text-secondary-emphasis"> نقدم لكم نظام إدارة المنيو الرقمي المتطور الذي يتناسب مع احتياج التحكم الكامل في عناصر المنيو. يمكنكم إضافة أو حذف الأصناف، تغيير الأسعار، وتحديث الصور بسهولة. سيتم عرض التغييرات على الفور برابط المنيو، وذلك من خلال تصميم احترافي يعكس هويتكم.</p>
                                    <p class="text-secondary-emphasis"> 
                                </div>
@@ -755,9 +814,104 @@
     </div>
 </div>
 
+<!-- لماذا تختار اير منيو-->
+    <section id="services" class="services pt-5 pb-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="mb-5"><span class="special gradient-text ">لماذا تختار اير منيو؟</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-lg-3 mb-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="icon">
+                                    <i class="ri-base-station-fill ri-3x text-primary"></i>                         
+                                </div>
+                                <h4> 	خبرة واحترافية</h4>
+                               
+                            </div>
+                            <div class="flip-card-back d-flex justify-content-center flex-column">
+                                <p>فريقنا يضم نخبة من المصممين والمطورين ذوي الخبرة الواسعة في المجال.
+                                </p>
+                                    <a href="#contact" class="custom-button mt-3">  تواصل معنا الآن</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- Service 2 -->
+<div class="col-lg-3 mb-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="icon">
+                    <i class="fas fa-project-diagram text-primary" style="font-size: 2.5rem;"></i>
+                </div>
+                <h4> 		حلول متكاملة</h4>
+               
+            </div>
+            <div class="flip-card-back d-flex justify-content-center flex-column">
+                <p> نقدم حزمة متكاملة من الخدمات الرقمية التي تلبي كافة احتياجات شركتك.
+                </p>
+                    <a href="#contact" class="custom-button mt-3">  تواصل معنا الآن</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- Service 3-->
+ <div class="col-lg-3 mb-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="icon">
+                    <i class="fas fa-brain text-primary" style="font-size: 2.5rem;"></i>
+      
+                </div>
+                <h4>	التفرد والإبداع	</h4>
+               
+            </div>
+            <div class="flip-card-back d-flex justify-content-center flex-column">
+                <p> نسعى دائماً لتقديم تصميمات مبتكرة تعكس تفرد شركتك وتميزها.
+                </p>
+                    <a href="#contact" class="custom-button mt-3">  تواصل معنا الآن</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>  
+  
+ <!-- Service 4-->
+ <div class="col-lg-3 mb-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+    <div class="flip-card">
+        <div class="flip-card-inner">  
+            <div class="flip-card-front">
+                <div class="icon">
+                    <i class="fas fa-leaf text-primary" style="font-size: 2.5rem;"></i>
+                </div>
+                <h4> 	دعم مستمر	</h4>
+               
+            </div>
+            <div class="flip-card-back d-flex justify-content-center flex-column">
+                <p>نضمن لك دعماً فنياً مستمراً طوال العام لضمان كفاءة وجودة أعمالك.
+                </p>
+                    <a href="#contact" class="custom-button mt-3">  تواصل معنا الآن</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>                          
+ </div>
+</div>
+ </section>
 
 
-    
 <!-- 
 <section class="pricing bg-light pt-5 pb-5 " id="our_product">
     <div class="section-header section-header-pricing">
@@ -1110,67 +1264,50 @@
                 </div>
             </div>
         </div>
-        <!-- العملاء -->
-<section class="py-5 bg-light" id="clients">
-    <div class="container">
-        <div class="section-header text-center mb-5">
-            <h2 class="text-center"><span class="special gradient-text">عملاؤنا</span></h2>
-            <p>نفخر بعملائنا المميزين الذين نقدم لهم حلولنا المبتكرة</p>
-        </div>
-        <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="#" class="client-link d-flex align-items-center justify-content-center">
-                        <div class="client-single text-center">
-                            <img src="../img/clients/client1.png" alt="Client 1" class="img-fluid mb-3">
-                            <div class="client-content">
-                                <h5 class="mb-2">شركة ABC</h5>
-                                <p class="text-muted">مجال العمل</p>
-                            </div>
-                        </div>
-                    </a>
+
+        <!-- Our Clients -->
+        <div class="bg-light border-top py-5">
+            <div class="container">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1 class="fw-bold pb-2 aos-init aos-animate gradient-text" data-aos="fade-up" data-aos-duration="1000">  عملائنا</h1>
+                        
+
+                     <span class=" px-5 mx-auto d-flex pb-1 justify-content-center col-1"></span>
+                    </div> 
                 </div>
-                <div class="carousel-item">
-                    <a href="#" class="client-link d-flex align-items-center justify-content-center">
-                        <div class="client-single text-center">
-                            <img src="../img/clients/client2.png" alt="Client 2" class="img-fluid mb-3">
-                            <div class="client-content">
-                                <h5 class="mb-2">شركة XYZ</h5>
-                                <p class="text-muted">مجال العمل</p>
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-12 mx-auto col-12">
+                        <div class="row row-cols-lg-6 row-cols-md-2 align-items-center row-cols-1 g-4">
+                            <div class="col">
+                                <div class="rounded-5 px-3 py-4 h-100" data-aos="flip-up" data-aos-duration="600">
+                                  <a href="https://online.pubhtml5.com/gszq/vucr/#p=1"> <img src="..//img/clients/brand-1.svg" alt="our-client" class="img-fluid d-block mx-auto"></a> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="rounded-5 px-3 py-4 h-100" data-aos="flip-up" data-aos-duration="600">
+                                  <a href=" "> <img src="img/clients/brand-1.svg" alt="our-client" class="img-fluid d-block mx-auto"></a> 
+                                </div>
+                            </div>
+
+                             <div class="col">
+                                <div class="rounded-5 px-3 py-4 h-100" data-aos="flip-up" data-aos-duration="600">
+                                  <a href=" "> <img src="img/clients/brand-1.svg" alt="our-client" class="img-fluid d-block mx-auto"></a> 
+                                </div>
+                            </div>  <div class="col">
+                                <div class="rounded-5 px-3 py-4 h-100" data-aos="flip-up" data-aos-duration="600">
+                                  <a href="https://online.pubhtml5.com/gszq/vucr/#p=1"> <img src="img/clients/brand-1.svg" alt="our-client" class="img-fluid d-block mx-auto"></a> 
+                                </div>
+                            </div>  <div class="col">
+                                <div class="rounded-5 px-3 py-4 h-100" data-aos="flip-up" data-aos-duration="600">
+                                  <a href="https://online.pubhtml5.com/gszq/vucr/#p=1"> <img src="img/clients/brand-1.svg" alt="our-client" class="img-fluid d-block mx-auto"></a> 
+                                </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#" class="client-link d-flex align-items-center justify-content-center">
-                        <div class="client-single text-center">
-                            <img src="../img/clients/client3.png" alt="Client 3" class="img-fluid mb-3">
-                            <div class="client-content">
-                                <h5 class="mb-2">شركة MNO</h5>
-                                <p class="text-muted">مجال العمل</p>
-                            </div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">السابق</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#clientsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">التالي</span>
-            </button>
         </div>
-    </div>
-</section>
-
-
 
 <!-- contact -->
     <div class="bg-dark overflow-hidden py-5 contact" id="contact">
@@ -1179,9 +1316,7 @@
                 <div class="col-lg-5 col-12">
                     <div class="text-white" data-aos="fade-right" data-aos-duration="1000">
                         <h1 class="fw-bold mb-3 display-6 text-light-blue"> تواصل معنا</h1>
-                        <p class=" lead text-white-50">
-                          
-                            هل ترغب في الحصول على حلول رقمية مصممة خصيصاً لك؟ </p>
+                        <p class=" lead text-light-blue"><i class="bi bi-question-circle "></i>هل ترغب في الحصول على حلول رقمية مصممة خصيصاً لك؟ </p>
                         <p class="pb-3 lead text-white-50">  املأ النموذج وسنكون على اتصال بك قريباً.</p>
 
 <!--
@@ -1231,20 +1366,20 @@
 
             <div>
                 <div class="d-flex align-items-start gap-3 mb-4">
-                  <i class="ri-phone-fill ri-2x text-white"></i>
+                  <i class="ri-phone-fill ri-2x text-primary"></i>
                   <div class="pt-2">
-                    <h5 class="fw-bold text-white">رقم الهاتف</h5>
+                    <h5 class="fw-bold text-primary">رقم الهاتف</h5>
                     <p class="mb-0 text-white-50">
                       
-                  +966500518950
+                +966500518950
                     </p>
                   </div>
                 </div>
                 <div class="d-flex align-items-start gap-3 mb-4">
-                  <i class="ri-mail-fill ri-2x text-white"></i>
+                  <i class="ri-mail-fill ri-2x text-primary"></i>
 
                   <div class="pt-2">
-                    <h5 class="fw-bold text-white">التواصل</h5>
+                    <h5 class="fw-bold text-primary">التواصل</h5>
                     <p class="mb-0 text-white-50">
                       <a href="mailto:info@aldhafeeri-law.com" class="mb-0 text-white-50">:info@AirMenu.net </a>
                   
@@ -1252,9 +1387,9 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-start gap-3">
-                  <i class="ri-time-fill ri-2x text-white"></i>
+                  <i class="ri-time-fill ri-2x text-primary"></i>
                   <div class="pt-2">
-                    <h5 class="fw-bold text-white">ساعات العمل</h5>
+                    <h5 class="fw-bold text-primary">ساعات العمل</h5>
                     <p class="mb-0 text-white-50">
                       يومياً من السبت إلى الخميس 
   التاسعة صباحاً إلى الخامسة مساءً
@@ -1323,8 +1458,8 @@
             <div class="row g-4 py-5">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="position-relative d-flex align-items-center gap-2 site-brand">
-                        <div class="lh-1 d-flex justify-content-center">
-                            <img style="width: auto; scale: 0.5; height: auto; transform: translatex(-280px); margin: 0 auto;" src="..//img/logo.png" class="logo-header"
+                        <div class="lh-1 " style=" border-radius: 50%; overflow:hidden">
+                            <img style="width: 100px; background-color: #fff; opacity: 0.4; transform: translatey(-5px);" src="..//img/logo.png" class="logo-header"
                                 alt="شعار الشركة" />
                         </div>
                         <a class="stretched-link" href="#"></a>
@@ -1337,20 +1472,20 @@
                     <!-- روابط التواصل -->
                     <div class="social mt-4 d-flex align-items-center order-lg-2 order-1">
 
-                        <a href="" class="social1 mx-2 " target="_blank"><i class="bx bxl-twitter white"></i></a>
-                        <a href="" class="social1 mx-2 " target="_blank"><i class="bx bxl-instagram white"></i></a>
-                        <a href="" class="social1 mx-2 " target="_blank"><i class="bx bxl-facebook white"></i></a>
-                        <a href="" class="social1 mx-2 " target="_blank"><i class="bx bxl-snapchat white"></i></a>
+                        <a href="" class="social1 mx-2" target="_blank"><i class="bx bxl-twitter"></i></a>
+                        <a href="" class="social1 mx-2" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="" class="social1 mx-2" target="_blank"><i class="bx bxl-facebook"></i></a>
+                        <a href="" class="social1 mx-2" target="_blank"><i class="bx bxl-snapchat"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-12">
                     <h5 class="fw-bold pb-3 text-light-blue">روابط سريعة</h5>
                     <ul class="list-unstyled d-grid gap-2 text-light-blue" style="padding: 0;">
-                        <li><i class="bi bi-arrow-left-short text-white"></i> <a href="#" class="text-white-50">الرئيسية</a></li>
-                        <li><i class="bi bi-arrow-left-short text-white"></i> <a href="#about_us" class="text-white-50">من نحن
+                        <li><i class="bi bi-arrow-left-short"></i> <a href="#" class="text-white-50">الرئيسية</a></li>
+                        <li><i class="bi bi-arrow-left-short"></i> <a href="#about_us" class="text-white-50">من نحن
                         </a></li>
-                        <li><i class="bi bi-arrow-left-short text-white"></i> <a href="#services" class="text-white-50">خدماتنا</a>
+                        <li><i class="bi bi-arrow-left-short"></i> <a href="#services" class="text-white-50">خدماتنا</a>
                         </li>
                         <li><i class="bi bi-arrow-left-short"></i> <a href="#services" class="text-white-50">
                                 منتاجاتنا الرقمية</a></li>
@@ -1363,10 +1498,10 @@
                 <div class="col-lg-2 col-md-4 col-12">
                     <h5 class="fw-bold pb-3 text-light-blue">خدماتنا</h5>
                     <ul class="list-unstyled d-grid gap-2 text-light-blue" style="padding: 0;">
-                        <li><i class="bi bi-arrow-left-short text-white"></i> <a href="#services" class="text-white-50"> تصميم المواقع الالكترونية 
+                        <li><i class="bi bi-arrow-left-short"></i> <a href="#services" class="text-white-50"> تصميم المواقع الالكترونية 
                                 </a>
                         </li>
-                        <li><i class="bi bi-arrow-left-short text-white"></i> <a href="#services" class="text-white-50">تصميم الهوية البصرية
+                        <li><i class="bi bi-arrow-left-short"></i> <a href="#services" class="text-white-50">تصميم الهوية البصرية
                     </a></li>
                         <li><i class="bi bi-arrow-left-short"></i> <a href="#services" class="text-white-50">	إنشاء البريد الإلكترونى للشركات </a>
                         </li>
@@ -1389,10 +1524,10 @@
                             class="text-white-50"> info@AirMenu.net</a></p>
                     <p class="text-white-50">الأرقام:
                         <ul>
-                            <li><i class="bi bi-telephone text-white"></i><a href="tel:+96650051895">
+                            <li><i class="bi bi-telephone "></i><a href="tel:+96650051895">
                          رقم الموبايل:966500518950+
                                 </a></li>
-                            <li><i class="bi bi-whatsapp text-white"></i> <a href="tel:+966500518950">
+                            <li><i class="bi bi-whatsapp"></i> <a href="tel:+966500518950">
                        رقم الواتساب: 966500518950+
                                 </a></li>
                             
@@ -1505,8 +1640,6 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#about-us" style="color:black !important; text-align: right;">ماذاعنا</a>
-                </li>
                 <li class="nav-item"><a class="nav-link" href="#" style="color:black !important; text-align: right;">المدونة</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="contact.html" style="color:black !important; text-align: right;">تواصل معنا</a></li>
@@ -1540,6 +1673,7 @@
             }
             });
     </script>
+
 </body>
 
 </html>
