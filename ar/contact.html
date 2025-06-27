@@ -114,7 +114,118 @@
       </div>
     </div>
   </div>
+    <title>Carousel Example</title>
+    <style>
+      .carousel-container {
+        width: 100%;
+        max-width: 1000px; /* يمكنك تغيير الحجم حسب الحاجة */
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+      }
+  
+      .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+  
+      .carousel-item {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+  
+      .carousel-item img {
+        border-radius: 15px;
+        width: 48%;
+        height: 500px;
+        object-fit: cover;
+      }
+  
+      /* لجعل العرض متجاوبًا مع مختلف الشاشات */
+      @media (max-width: 768px) {
+        .carousel-item img {
+          width: 100%;
+        }
+      }
+  
+      /* أزرار التنقل */
+      .carousel-control {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 1;
+      }
+  
+      .carousel-control-prev {
+        left: 10px;
+      }
+  
+      .carousel-control-next {
+        right: 10px;
+      }
+    </style>
 
+
+  
+    <div class="carousel-container">
+      <div class="carousel-inner">
+        <!-- المجموعة الأولى من الصور -->
+        <div class="carousel-item active">
+          <a href="https://www.example.com">
+            <img src="https://via.placeholder.com/800x500" class="d-block" alt="First Image">
+          </a>
+          <a href="https://www.example.com">
+            <img src="https://via.placeholder.com/800x500" class="d-block" alt="Second Image">
+          </a>
+        </div>
+  
+        <!-- المجموعة الثانية من الصور -->
+        <div class="carousel-item">
+          <a href="https://www.example.com">
+            <img src="https://via.placeholder.com/800x500" class="d-block" alt="Third Image">
+          </a>
+          <a href="https://www.example.com">
+            <img src="https://via.placeholder.com/800x500" class="d-block" alt="Fourth Image">
+          </a>
+        </div>
+  
+        <!-- المزيد من الصور يمكن إضافتها هنا بنفس الطريقة -->
+      </div>
+  
+      <!-- أزرار التحكم اليدوي -->
+      <div class="carousel-control carousel-control-prev" onclick="moveSlide(-1)">
+        &#10094; <!-- رمز السهم السابق -->
+      </div>
+      <div class="carousel-control carousel-control-next" onclick="moveSlide(1)">
+        &#10095; <!-- رمز السهم التالي -->
+      </div>
+    </div>
+  
+    <script>
+      let currentIndex = 0;
+  
+      function moveSlide(direction) {
+        const items = document.querySelectorAll('.carousel-item');
+        const totalItems = items.length;
+  
+        // حساب الفهرس الجديد بناءً على الاتجاه
+        currentIndex = (currentIndex + direction + totalItems) % totalItems;
+  
+        // تحريك الصور
+        const carouselInner = document.querySelector('.carousel-inner');
+        carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }
+    </script>
+  
+
+  
+  
     <!-- hero-header -->
     <div class="hero-background">
         <!-- Navbar -->
